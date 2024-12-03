@@ -68,36 +68,36 @@
                 <label><p class="tartalom">E-mail cím: <input type="email" name="email" size="30" maxlength="50"></p></label>
 
                 <label><p class="tartalom">Időpont:<input type="datetime-local" name="datum"></p></label>
-                <label>    
+                   
                 <p class="tartalom">Kedvezmények:
                     
                     <select size="1" name="kedvezmeny" id="kedvezmeny">
-                     <option selected>Teljesárú</option>
-                     <option>33 %-os nyugdíjas kedvezmény</option>
-                     <option>25% %-os diák kedvezmény</option>
-                     <option>25%-os nagycsaládos kedvezmény</option>
+                        <label> <option selected>Teljesárú</option></label>
+                            <label><option>33 %-os nyugdíjas kedvezmény</option></label>
+                                <label><option>25% %-os diák kedvezmény</option></label>
+                                    <label> <option>25%-os nagycsaládos kedvezmény</option></label>
                     </select>
                 </p>
-                </label>
-                <label> 
+                
+                
                 <p class="tartalom">Mosás típusa<br>
-                    <input type="radio" name="tipus" value="kb" id="kulsobelso" checked>Külső és belső tisztítás (6000Ft)<br>
+                    <label>  <input type="radio" name="tipus" value="kb" id="kulsobelso" checked>Külső és belső tisztítás (6000Ft)<br></label>
 
-                    <input type="radio" name="tipus" value="k" id="kulso">Külső tisztítás (2000 Ft)<br>
+                        <label> <input type="radio" name="tipus" value="k" id="kulso">Külső tisztítás (2000 Ft)<br></label>
 
-                    <input type="radio" name="tipus" value="b" id=>Belső tisztítás (4000 Ft)
+                            <label> <input type="radio" name="tipus" value="b" id=>Belső tisztítás (4000 Ft)</label>
                 </p>
-                </label>
-                <label> 
+                
+                 
                 <p class="tartalom">
                     Egyéb extrák<br>
-                    <input type="checkbox" name="polir" value="ON" id="polir">Polírozás (10000 Ft)<br>
-                    <input type="checkbox" name="borjav" value="ON" id="borjav">Bőrjavítás(8000 Ft)<br>
-                    <input type="checkbox" name="viasz" value="ON" id="viasz">Viasz használata(1000 Ft)<br>
-                    <input type="checkbox" name="muanyagjav" value="ON" id="muanyag">Külső műanyag javítás(6000 Ft)<br>
+                    <label> <input type="checkbox" name="polir" value="ON" id="polir">Polírozás (10000 Ft)<br></label>
+                        <label> <input type="checkbox" name="borjav" value="ON" id="borjav">Bőrjavítás(8000 Ft)<br></label>
+                            <label> <input type="checkbox" name="viasz" value="ON" id="viasz">Viasz használata(1000 Ft)<br></label>
+                                <label> <input type="checkbox" name="muanyagjav" value="ON" id="muanyag">Külső műanyag javítás(6000 Ft)<br></label>
 
                 </p>
-                </label>
+                
                 <p class="tartalom">Összesen: <input size=8 type="text" value="" id="osszeg"> Ft <input class="gomb" type="button" value="Kiszámol" id="szamol"> </p>
                 <label> <input class="gomb" type="submit" value="Elküldés" name="kuld"></label>
                 <label> <input class="gomb" type="reset" value="Alaphelyzet" name="alap"></label>
